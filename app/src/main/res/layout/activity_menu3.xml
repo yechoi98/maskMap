@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu3Activity">
+
+    <RelativeLayout
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_id_tracking_on_off"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/trackingButtonOn"
+            android:text="트래킹 On/Off"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:id="@+id/btn_id_currentLocation"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/buttons"
+            android:text="현재위치"
+            android:layout_below="@id/btn_id_tracking_on_off"/>
+
+        <Button
+            android:id="@+id/btn_id_road"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/buttons"
+            android:text="@string/roadView_button"
+            android:layout_alignParentRight="true"/>
+
+        <Button
+            android:id="@+id/btn_id_hybrid"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/buttons"
+            android:text="@string/skyView_button"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/btn_id_road"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

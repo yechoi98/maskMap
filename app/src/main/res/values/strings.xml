@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">maskMap</string>
+    <string name="app_title">마스크 맵</string>
+    <string name="menu_1">마스크 5부제</string>
+    <string name="menu_2">마스크 대리구매</string>
+    <string name="menu_3">주변 마스크 판매처 찾기</string>
+
+    <string name="table_0_0">대리구매\n대상자</string>
+    <string name="table_0_1">대리구매자 자격</string>
+    <string name="table_0_2">준비물</string>
+
+    <string name="table_1_0">① 1940년 이전 출생\n② 2002년 이후 출생</string>
+    <string name="table_1_1">주민등록부상 동거인 또는 가족관계증명서 상 가족</string>
+    <string name="table_1_2">- 대리구매자의 공인신분증\n- 구매대상자와 관계를 확인할 수 있는 주민등록등본 또는 가족관계증명서</string>
+
+    <string name="table_2_0">③ 장애인</string>
+    <string name="table_2_1">제한 없음</string>
+    <string name="table_2_2">- 구매대상자의 주민등록번호가 기재된 장애인등록증(장애인 복지카드) 또는 장애인증명서\n* 장애인등록증에 주민등록번호가 기재되지 않은 경우 구매대상자의 공인신분증 함께 제시</string>
+
+    <string name="table_3_0">④ 임신부</string>
+    <string name="table_3_1">주민등록부상 동거인 또는 가족관계증명서 상 가족</string>
+    <string name="table_3_2">- 대리구매자의 공인신분증\n- 구매대상자와 관계를 확인할 수 있는 주민등록등본(동거 확인) 또는 가족관계증명서(가족관계 확인)\n- 요양기관이 발급한 구매대상자의 임신확인서</string>
+
+    <string name="table_4_0">⑤ 국가보훈대상자 중 상이자</string>
+    <string name="table_4_1">제한 없음</string>
+    <string name="table_4_2">- 구매대상자의 주민등록번호와 상이(장애)등급이 기재된 국가보훈처장이 발급한 국가보훈대상자 신분증 또는 고엽제법 적용대상 확인원</string>
+
+    <string name="table_5_0">⑥ 요양병원 환자</string>
+    <string name="table_5_1">요양시설 종사자</string>
+    <string name="table_5_2">- 해당 요양병원 종사자임을 확인할 수 있는 증명서(해당 요양병원장 발급)\n- 해당 요양병원 환자의 공적마스크 구매 및 개인정보수집이용 동의서(해당 요양병원장 발급)</string>
+
+    <string name="table_6_0">⑦ 병원(요양병원 포함) 입원환자</string>
+    <string name="table_6_1">주민등록부상 동거인 또는 가족관계증명서 상 가족</string>
+    <string name="table_6_2">- 대리구매자의 공인신분증\n- 구매대상자와 관계를 확인할 수 있는 주민등록등본(동거 확인) 또는 가족관계증명서(가족관계 확인)\n- 요양기관에서 발급한 입원확인서</string>
+
+    <string name="table_7_0">⑧ 장기요양 급여 수급자</string>
+    <string name="table_7_1_0">요양시설 종사자</string>
+    <string name="table_7_1_1">주민등록부상 동거인 또는 가족관계증명서 상 가족</string>
+    <string name="table_7_2_0">- 해당 요양시설 종사자임을 확인할 수 있는 증명서(해당 요양시설장 발급)\n- 해당 요양시설 입소자의 장기요양인정서</string>
+    <string name="table_7_2_1">- 대리구매자의 공인신분증\n- 구매대상자와 관계를 확인할 수 있는 주민등록등본(동거 확인) 또는 가족관계증명서(가족관계 확인)\n- 구매대상자의 장기요양인정서</string>
+
+    <string name="tracking_off_button">트래킹 모드 OFF</string>
+    <string name="tracking_on_button">트래킹 모드 ON</string>
+
+    <string name="roadView_button">로드뷰</string>
+    <string name="skyView_button">스카이뷰</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp"
+        android:paddingBottom="50dp"
+        android:text="@string/app_title"
+        android:textColor="#3F9B12"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:background="@color/buttons"
+        android:id="@+id/btn_menu_1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:textAlignment="center"
+        android:text="@string/menu_1"
+        android:textSize="25sp" />
+
+    <Button
+        android:background="@color/buttons"
+        android:id="@+id/btn_menu_2"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:textAlignment="center"
+        android:text="@string/menu_2"
+        android:textSize="25sp" />
+
+    <Button
+        android:background="@color/buttons"
+        android:id="@+id/btn_menu_3"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:textAlignment="center"
+        android:text="@string/menu_3"
+        android:textSize="25sp" />
+
+</LinearLayout>
